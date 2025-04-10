@@ -1,0 +1,39 @@
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    text-align: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex: 1 1 400px;
+    margin: 100px auto;
+    max-width: 400px;
+}
+img{
+    width: 200px;
+    display: block;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+button{
+    display: block;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    transition: background-color;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+strong {
+    color: hsl(158, 42%, 18%);
+    font-size: 36px;
+}
